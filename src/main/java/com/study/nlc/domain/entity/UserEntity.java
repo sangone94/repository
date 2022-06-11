@@ -1,5 +1,6 @@
 package com.study.nlc.domain.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 
@@ -9,6 +10,7 @@ import javax.persistence.Id;
 @Entity
 @Data
 @Builder
+@AllArgsConstructor
 public class UserEntity {
     @Id
     private String user_no;
