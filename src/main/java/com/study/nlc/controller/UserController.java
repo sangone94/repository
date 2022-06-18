@@ -15,7 +15,6 @@ public class UserController {
     public ModelAndView userLogin(HttpServletRequest rq , HttpServletResponse rd) {
         ModelAndView mav = new ModelAndView();
         // 조회시 성공이면 메인페이지 이동 url
-
         // 실패시 실패 메시지 전달
         return mav;
     }
@@ -30,7 +29,6 @@ public class UserController {
     @RequestMapping(value="/userInfo/setJoinMember")
     public ModelAndView setJoinMember(HttpServletRequest rq , HttpServletResponse rd) {
         ModelAndView mav = new ModelAndView();
-
         return mav;
     }
 }
