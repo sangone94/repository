@@ -22,7 +22,7 @@ public class UserController {
     // joinPage
     @RequestMapping(value="/userInfo/getJoinPage")
     public String getJoinPage(HttpServletRequest rq , HttpServletResponse rd) {
-        return "";
+        return "login";
     }
 
     // join
