@@ -25,10 +25,9 @@ public class UserController {
         return "login";
     }
 
-    // join
-    @RequestMapping(value="/userInfo/setJoinMember")
-    public ModelAndView setJoinMember(HttpServletRequest rq , HttpServletResponse rd) {
-        ModelAndView mav = new ModelAndView();
-        return mav;
+    // new Member
+    @RequestMapping(value="/userInfo/setJoinPageReg")
+    public String setJoinPageReg(HttpServletRequest rq , HttpServletResponse rd) {
+        return "/user/regMember";
     }
 }

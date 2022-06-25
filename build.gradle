@@ -39,6 +39,9 @@ dependencies {
 
     // maria db 추가
     implementation("org.mariadb.jdbc:mariadb-java-client:2.1.2")
+
+    // jackson 추가
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.12.7'
 }
 tasks.named('test') {
     useJUnitPlatform()

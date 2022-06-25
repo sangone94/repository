@@ -3,6 +3,15 @@
 <html>
     <head>
         <title>login</title>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script>
+            $(function(){
+                $("#goJoinMember").click(function(){
+                    $("#frm").attr("action","/userInfo/setJoinPageReg").submit();
+                });
+            });
+        </script>
+
     </head>
     <body>
         <form id="frm" method="post" action="">
@@ -10,7 +19,8 @@
                 ID : <input type="text" id="loginId" name="loginId" value="" />
                 PW : <input type="text" id="loginPw" name="loginPw" value="" />
             </div>
-            <input type="button" id="" name="" value="로그인" />
+            <input type="button" id="goLogin" name="" value="로그인" />
+            <input type="button" id="goJoinMember" name="" value="회원가입" />
         </form>
     </body>
 </html>
