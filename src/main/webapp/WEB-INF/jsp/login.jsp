@@ -3,7 +3,7 @@
 <html>
     <head>
         <title>login</title>
-        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="/WEB-INF/jquery/jquery-3.6.0.min.js" />
         <script>
             $(function(){
                 $("#goJoinMember").click(function(){
