@@ -3,7 +3,7 @@
 <html>
     <head>
         <title>login</title>
-        <script src="/WEB-INF/jquery/jquery-3.6.0.min.js" />
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
         <script>
             $(function(){
                 $("#goJoinMember").click(function(){
@@ -14,6 +14,7 @@
 
     </head>
     <body>
+
         <form id="frm" method="post" action="">
             <div id="loginDiv">
                 ID : <input type="text" id="loginId" name="loginId" value="" />

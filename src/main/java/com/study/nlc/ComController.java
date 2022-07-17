@@ -15,6 +15,11 @@ public class ComController {
     @Autowired
     TestRepository tr;
 
+    @RequestMapping(value="/")
+    public String nlcHome() {
+        return "nlc";
+    }
+
     @RequestMapping(value="/home")
     public String home(HttpServletRequest rq) {
         return "home";
