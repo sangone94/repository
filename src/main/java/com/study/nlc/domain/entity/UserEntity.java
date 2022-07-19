@@ -14,7 +14,8 @@ import javax.persistence.Id;
 public class UserEntity {
     @Id
     private String user_no;
-    private String user_status;
+    private String user_name;
+    private String user_type;
     private String tel1;
     private String tel2;
     private String tel3;
