@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>NLC</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="/jquery/jquery-3.5.1.js"></script>
 </head>
 <body>
     <form id="frm" name="fmr" method="post">

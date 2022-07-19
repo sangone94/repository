@@ -3,10 +3,14 @@
 <html>
     <head>
         <title>login</title>
-        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript" src="/jquery/jquery-3.5.1.js"></script>
+        <script type="text/javascript" src="/js/common.js"></script>
         <script>
             $(function(){
-
+                $("#saveBtn").click(function() {
+                    // let data = { name: "홍길동" };
+                    // ajaxCall("/userInfo/regUserInfo",data,"post",false,fn_succ_call,fn_fail_call);
+                });
             });
         </script>
 
@@ -18,6 +22,12 @@
             전화번호 : <input type="password" id="tel1" name="tel" value="" placeholder="" maxlength="3" /> -
             <input type="password" id="tel2" name="tel" value="" placeholder="" maxlength="4" /> -
             <input type="password" id="tel3" name="tel" value="" placeholder="" maxlength="4" />
+            <br>
+            주소 : <input type="text" id="addr" name="addr" value="" />
+            <br>
+            상세 : <input type="text" id="addrDtl" name="addrDtl" value=""/>
+            <br>
+
             <br>
             <input type="button" id="closeBtn" name="closeBtn" value="취소" />
             <input type="button" id="saveBtn" name="saveBtn" value="회원가입" />
